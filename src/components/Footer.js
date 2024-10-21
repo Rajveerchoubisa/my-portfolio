@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaArrowCircleUp, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";

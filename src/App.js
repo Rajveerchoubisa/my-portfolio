@@ -5,15 +5,15 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import ParticlesBackground from './components/ThreeBackground'; // Import ParticlesBackground
+import ParticlesBackground from './components/ThreeBackground';
 import './App.css';
 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <ParticlesBackground /> {/* Add the ParticlesBackground component */}
-      <div className="z-10"> {/* Optional wrapper for your content */}
+      <ParticlesBackground /> 
+      <div className="z-10"> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
