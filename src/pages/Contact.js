@@ -4,15 +4,15 @@ const Contact = () => {
   return (
     <div
       id="Contact"
-      className="w-full h-screen p-4 bg-gradient-to-b from-gray-800 to-gray-900 text-white"
+      className="w-full  p-4 bg-gradient-to-b from-gray-800 to-gray-900 text-white"
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col  p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 text-center">
           <motion.p
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.5 }}
-            className="mt-[150px] lg:mt-[125px] text-transparent bg-clip-text bg-gradient-to-r from-[#fbfdfe] via-[#faeaff] to-[#9231dc] text-4xl font-bold"
+            className="mt-[150px]  lg:mt-[100px] text-transparent bg-clip-text bg-gradient-to-r from-[#fbfdfe] via-[#faeaff] to-[#9231dc] text-4xl font-bold"
           >
             Contact Me 
           </motion.p>
@@ -63,7 +63,7 @@ const Contact = () => {
               className="p-3 border-b-2 rounded-md border-gray-300 focus:border-blue-500 focus:outline-none mb-4"
             ></motion.textarea>
 
-            <button className="z-10 mb-10 bg-gradient-to-r from-[#222239] to-[#0f3460] text-white font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300 shadow-lg">
+            <button className="z-10 mb-7 lg:mb-7 mt-2  bg-gradient-to-r  from-[#222239] to-[#0f3460] text-white font-bold py-2 px-4 rounded hover:scale-105 transition-transform duration-300 shadow-lg">
               Let's Talk  <span className="">😊</span>
             </button>
           </form>
