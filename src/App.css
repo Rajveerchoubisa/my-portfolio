@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+
+
+h1, p {
+  color: white; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  height: 100%; /* Use 100% to ensure full height */
+  margin: 0; /* Reset default margin */
+ 
+}
+html, body {
+  height: 100%; /* Ensure full height */
+  margin: 0; /* Reset default margin */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+  height: 100%; /* Ensure the root div also takes full height */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-container {
+  min-height: 100vh; /* Ensure Home component takes full height */
+  display: flex; /* Optional: allows flex layout if needed */
+  flex-direction: column; /* Optional: set column direction */
 }
