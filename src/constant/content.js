@@ -2,8 +2,9 @@
 import project1 from  "../assets/NodeMapproject.png"
 import project2 from "../assets/Sas.png";
 import project3 from "../assets/task.png";
-import project4 from "../assets/Cal.png";
+import project4 from "../assets/techthap.png";
 import project5 from "../assets/Timer.png"
+import project6 from '../assets/mnsit.png'
 
 export const Content = `I am passionate Software developer. 
 I have honed my skills in front-end technologies
@@ -39,10 +40,18 @@ I have honed my skills in front-end technologies
         Source: "https://github.com/Rajveerchoubisa/TaskManager",
     },
     {
-        title: "Investment Calculator",
+        title: "TechThap",
         image: project4,
-        description: "A simple investment calculator that allows users to calculate the future value of their investments based on initial and annual investment and expected return with duration",
-        Source: "https://github.com/Rajveerchoubisa/timerchallenge-reactjs"
+        description: " Developed a real-time chat application using WebSocket for instant communication ReactJS and Tailwind CSS for a responsive interface, and MongoDB for secure data management.",
+        Source: "https://github.com/Rajveerchoubisa/TechThapnew"
+        
+        
+    },
+    {
+        title: "MNIST Handwritten Digit Classification ",
+        image: project6,
+        description: "Built a deep learning model to classify handwritten digits from the MNIST dataset with over 98% accuracy. Implemented a neural network using TensorFlow/Keras, with techniques like dropout and batch normalization for optimization.",
+        Source: "https://github.com/Rajveerchoubisa/MNIST_Handwritten_digit_classfication"
         
         
     },
