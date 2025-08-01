@@ -57,6 +57,72 @@ const About = () => {
         </motion.div>
       </div>
 
+      {/* Experience Section */}
+      <div className="mt-10 px-6 lg:px-20">
+        <h2 className="text-white text-center lg:text-4xl text-2xl font-semibold mb-12">
+          MY <span className="text-[#7e68ff]">EXPERIENCE</span>
+        </h2>
+
+        <div className="space-y-10 max-w-5xl mx-auto">
+          {/* Experience Card 1 */}
+          <motion.div
+            whileHover={{ scale: 1.02 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+            className="bg-[#1c1c1c] border border-[#7e68ff] rounded-xl p-6 shadow-md hover:shadow-[#a076ff] transition-all"
+          >
+            <h3 className="text-white text-xl lg:text-2xl font-bold">
+              Software Development Intern – Verdical Technologies
+            </h3>
+            <p className="text-sm text-gray-400 mb-2">
+              Remote | June 2025 – July 2025
+            </p>
+            <p className="text-gray-300 text-[15px] lg:text-[17px] leading-relaxed">
+              During my internship, I worked on building a full-fledged IELTS
+              learning web platform from scratch using the MERN stack (MongoDB,
+              Express.js, React, Node.js). My responsibilities included
+              developing secure authentication flows with OTP verification,
+              Google OAuth, and password reset, along with role-based dashboards
+              for students, trainers, and managers. I implemented features like
+              test-taking interfaces with audio, result evaluation, subscription
+              management, profile handling, and email notifications. I also
+              focused on creating a responsive, user-friendly UI with Tailwind
+              CSS, ensuring smooth navigation and feedback using toast alerts
+              and protected routes for security.
+            </p>
+          </motion.div>
+
+          {/* Experience Card 2 */}
+          <motion.div
+            whileHover={{ scale: 1.02 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.1 }}
+            className="bg-[#1c1c1c] border border-[#7e68ff] rounded-xl p-6 shadow-md hover:shadow-[#a076ff] transition-all"
+          >
+            <h3 className="text-white text-xl lg:text-2xl font-bold">
+              Machine Learning Intern – Suvidha Foundation
+            </h3>
+            <p className="text-sm text-gray-400 mb-2">
+              Remote | April 2025 – May 2025
+            </p>
+            <p className="text-gray-300 text-[15px] lg:text-[17px] leading-relaxed">
+              As a research intern at Suvidha Foundation, I contributed to the
+              development of a research paper titled “ReasonFormer:
+              Interpretable Transformer for Explainable Cross-Lingual
+              Commonsense Reasoning.” My role involved conducting an in-depth
+              literature review, preparing and processing multilingual datasets,
+              fine-tuning transformer models (like mT5 and XLM-R), and
+              evaluating their performance using metrics like BLEU, ROUGE, and
+              accuracy. I also contributed to writing and formatting the paper
+              in IEEE style, focusing on making AI systems more interpretable
+              and transparent across different languages.
+            </p>
+          </motion.div>
+        </div>
+      </div>
+
       {/* Skillset Section */}
       <div className="mt-10 ">
         <h2 className="text-white text-center lg:text-4xl text-2xl font-semibold">
@@ -125,7 +191,7 @@ const About = () => {
 
       <div className="items-center  mt-8 justify-center">
         <h1 className="uppercase text-2xl text-center  text-white font-semibold lg:text-4xl">
-          <span className="text-[#c77dfb]">Tools</span>  I Use
+          <span className="text-[#c77dfb]">Tools</span> I Use
         </h1>
         <div className="flex flex-wrap justify-center mt-8">
           <div className="flex flex-col items-center w-1/2 sm:w-1/3 lg:w-[15%] mb-4">
