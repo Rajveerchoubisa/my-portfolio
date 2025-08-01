@@ -4,7 +4,8 @@ import project2 from "../assets/Sas.png";
 import project3 from "../assets/task.png";
 import project4 from "../assets/techthap.png";
 import project5 from "../assets/Timer.png"
-import project6 from '../assets/mnsit.png'
+import project6 from '../assets/Zidio.png'
+
 
 export const Content = `I am passionate Software developer. 
 I have honed my skills in front-end technologies
@@ -60,5 +61,11 @@ I have honed my skills in front-end technologies
         image: project5,
         description: "A simple timer challenge that allows users to get a score or their stop on timer",
         Source: "https://github.com/Rajveerchoubisa/timerchallenge-reactjs"
+    },
+    {
+        title: "Zidio Ecommerce",
+        image: project6,
+        description: "Zidio is a feature-rich MERN stack e-commerce platform inspired by comic and starry night themes, offering seamless shopping, secure checkout, and a personalized user experience.",
+        Source: "https://github.com/Rajveerchoubisa/Intern_project_Zidio"
     }
   ]
